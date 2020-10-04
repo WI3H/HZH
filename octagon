@@ -1,0 +1,8 @@
+#made in pycharm
+from turtle import *
+color('green')
+while True:
+    forward(135)
+    right(45)
+    if  abs(pos())<1:
+        break
